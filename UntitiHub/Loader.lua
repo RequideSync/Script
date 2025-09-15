@@ -64,3 +64,5 @@ function LoaderModule.LoadScript(ScriptNumber)
 	local returm = BuildAnd_Execute(ScriptNumber)
 	return returm
 end
+
+return LoaderModule
